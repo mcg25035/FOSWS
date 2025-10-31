@@ -38,11 +38,11 @@ The following technology stack is recommended for this project, based on the req
   - **Framework:** React.js or Vue.js
   - **Styling:** Tailwind CSS or Material-UI
 - **Backend:**
-  - **Framework:** Spring Boot (Java), Django (Python), or Node.js (Express/NestJS) for robust, scalable APIs.
+  - **Framework:** Node.js (Express/NestJS) for robust, scalable APIs.
   - **API Specification:** RESTful APIs with JSON.
 - **Database:**
   - **RDBMS:** PostgreSQL or MySQL (as per `DBSD003`).
-  - **ORM:** Hibernate (Java) or Django ORM (Python).
+  - **ORM:** Prisma or TypeORM (compatible with Node.js).
 - **Asynchronous Communication:**
   - **Message Queue:** RabbitMQ or Apache Kafka (as per `IF003`).
 - **DevOps & Deployment:**
